@@ -80,3 +80,29 @@ Then intialize React
  import React from "react";
  ```
 Then continue to the creation of your components  
+Once you created your Prop/widget file under a components folder  
+For this example we will create a file called `List.tsx` and inside create the following temporary function
+```TypeScript
+const List = () => {
+    return(
+        <div>
+            I am a list
+        </div>
+    )
+}
+export default List
+```
+Hence leaving the basic structure as
+```TypeScript
+import statement;
+const Foo = () => {
+  return{
+    whatever you wish to return
+  }
+}
+export default Foo
+```
+
+Then import the component to the main page of the react app:
+``` TypeScript
+```
